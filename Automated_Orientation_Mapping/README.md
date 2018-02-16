@@ -13,4 +13,6 @@ left to be done. Thus in Section 4 we discuss several additional tools for inter
 
 <h3> The Patterns </h3>
 
-<h3> The Templates </h3>  
+<h3> The Templates </h3> 
+
+GOTCHA: markers don't care how intense the peak they are derived from is, so you get some odd things 
