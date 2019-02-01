@@ -1,7 +1,5 @@
 # pyxem-demos
 
-## Introduction
-
 This repository contains [Jupyter Notebooks](http://jupyter.org/) to demonstrate
 how to perform pythonic crystallographic electron microscopy with [pyXem](http://pyxem.github.io/pyxem/).
 
