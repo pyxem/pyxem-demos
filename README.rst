@@ -9,7 +9,7 @@ This repository contains `Jupyter notebooks <http://jupyter.org/>`__ demonstrati
 
 Data required for the calibration & nanowire demos are available `here <https://drive.google.com/open?id=11CV7_wkFIsOtDICOcil8Bo25fo0NlR9I>`__ .
 
-**Installation instructions and documentation can be found** `here <https://pyxem.github.io/pyxem>`__ .
+**Installation instructions and documentation can be found** `here <https://pyxem.github.io/pyxem-website/>`__ .
 
 If analysis using pyXem forms a part of published work please cite the package as explained `here <https://pyxem.github.io/pyxem>`__ and if these example notebooks are used, please cite the DOI at the top of this page.
 
