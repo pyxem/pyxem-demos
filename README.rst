@@ -25,6 +25,7 @@ Via conda:
   $ conda install pyxem --channel conda-forge
 
 Alternatively, via pip:
+
 .. code-block::
 
   $ pip install pyxem
