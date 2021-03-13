@@ -18,13 +18,15 @@ Like many python packages, there are two main routes to installing pyxem, via co
 
 Via conda:
 
-.. code-block:: shell
+.. code-block::
+
   $ conda create --name pyxem python=3.8
   $ conda activate pyxem
   $ conda install pyxem --channel conda-forge
 
 Alternatively, via pip:
-.. code-block:: shell
+.. code-block::
+
   $ pip install pyxem
 
 If analysis using pyXem forms a part of published work please cite the package as explained `here <https://pyxem.github.io/pyxem>`__ and if these example notebooks are used, please cite the DOI at the top of this page.
