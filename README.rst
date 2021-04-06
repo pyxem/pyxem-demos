@@ -8,9 +8,11 @@ pyxem is an open-source python library for crystallographic diffraction microsco
 
 This repository contains `Jupyter notebooks <http://jupyter.org/>`__ demonstrating core functionality of the pyXem package.
 
-**Note** If you are using the demos with a release version of pyxem (e.g. that you have obtained from conda-forge or PyPI) then you should use the corresponding release version of the demos obtained from the Zenodo link above.
-
 **Data** required for all demos are available `here <https://drive.google.com/open?id=11CV7_wkFIsOtDICOcil8Bo25fo0NlR9I>`__ .
+
+If you have problems using any of the notebooks provided here please `raise an issue <https://github.com/pyxem/pyxem-demos/issues>`__ so that we can help.
+
+**Note** If you are using the demos with a release version of pyxem (e.g. that you have obtained from conda-forge or PyPI) then you should use the corresponding release version of the demos obtained from the Zenodo link above.
 
 **Installation**
 
@@ -30,6 +32,3 @@ Alternatively, via pip:
 
   $ pip install pyxem
 
-If analysis using pyXem forms a part of published work please cite the package as explained `here <https://pyxem.github.io/pyxem>`__ and if these example notebooks are used, please cite the DOI at the top of this page.
-
-If you have problems using any of the notebooks provided here please `raise an issue <https://github.com/pyxem/pyxem-demos/issues>`__ so that we can help.
