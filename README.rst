@@ -10,8 +10,25 @@ This repository contains `Jupyter notebooks <http://jupyter.org/>`__ demonstrati
 
 **Data** required for all demos are available `here <https://drive.google.com/open?id=11CV7_wkFIsOtDICOcil8Bo25fo0NlR9I>`__ .
 
-**Installation** instructions and documentation can be found `here <https://pyxem.github.io/pyxem-website/>`__ .
-
-If analysis using pyXem forms a part of published work please cite the package as explained `here <https://pyxem.github.io/pyxem>`__ and if these example notebooks are used, please cite the DOI at the top of this page.
-
 If you have problems using any of the notebooks provided here please `raise an issue <https://github.com/pyxem/pyxem-demos/issues>`__ so that we can help.
+
+**Note** If you are using the demos with a release version of pyxem (e.g. that you have obtained from conda-forge or PyPI) then you should use the corresponding release version of the demos obtained from the Zenodo link above.
+
+**Installation**
+
+Like many python packages, there are two main routes to installing pyxem, via conda (recommended) and via pip.
+
+Via conda:
+
+.. code-block::
+
+  $ conda create --name pyxem python=3.8
+  $ conda activate pyxem
+  $ conda install pyxem --channel conda-forge
+
+Alternatively, via pip:
+
+.. code-block::
+
+  $ pip install pyxem
+
