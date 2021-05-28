@@ -22,7 +22,7 @@ Via conda:
 
 .. code-block::
 
-  $ conda create --name pyxem python=3.8
+  $ conda create --name pyxem 
   $ conda activate pyxem
   $ conda install pyxem --channel conda-forge
 
