@@ -3,7 +3,8 @@
 .. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2652869.svg
 .. _doi: https://doi.org/10.5281/zenodo.2652869
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CSSFrancis/pyxem-demos.git/binderDemos)
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/CSSFrancis/pyxem-demos.git/binderDemos
 
 pyxem is an open-source python library for crystallographic diffraction microscopy.
 
