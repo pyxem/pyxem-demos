@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+dependencies:
+  - hyperspy-base
+  - hyperspy-gui-ipywidgets
+  - ipympl
+  - scikit-learn
+  - pyxem
