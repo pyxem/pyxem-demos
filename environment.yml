@@ -8,3 +8,4 @@ dependencies:
   - hyperspy
   - diffsims
   - orix
+  - numpy
