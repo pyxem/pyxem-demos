@@ -10,7 +10,7 @@ dependencies:
   - ipywidgets
   - lmfit
   - orix
-  - numba
+  - numba >= 0.56.0
   - dask
   - scikit-image
   - scikit-learn
