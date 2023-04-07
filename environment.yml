@@ -7,5 +7,12 @@ dependencies:
   - pyxem
   - hyperspy
   - diffsims
+  - ipywidgets
+  - lmfit
   - orix
-  - numpy
+  - numba
+  - dask
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - transforms3d
