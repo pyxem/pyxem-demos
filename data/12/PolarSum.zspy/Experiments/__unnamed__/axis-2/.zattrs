@@ -1,0 +1,10 @@
+{
+    "_type": "UniformDataAxis",
+    "is_binned": false,
+    "name": "Radians",
+    "navigate": false,
+    "offset": -3.141592653589793,
+    "scale": 0.017453292519943295,
+    "size": 360,
+    "units": "Rad"
+}
