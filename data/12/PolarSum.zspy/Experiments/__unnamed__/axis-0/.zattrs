@@ -1,0 +1,10 @@
+{
+    "_type": "UniformDataAxis",
+    "is_binned": false,
+    "name": "y",
+    "navigate": true,
+    "offset": 1.9724,
+    "scale": 1.9724,
+    "size": 127,
+    "units": "nm"
+}

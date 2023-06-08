@@ -1,4 +1,3 @@
 *.bak #for spell checking
 
 .ipynb_checkpoints/
-data/*
