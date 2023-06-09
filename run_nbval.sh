@@ -16,6 +16,7 @@ declare -a NOTEBOOKS=(\
   "08 Pair Distribution Function Analysis.ipynb"\
   "09 Angular Correlations of Amorphous Materials.ipynb"\
   "10 STEM DPC Analysis of Magnetic Sample.ipynb"\
+  "11 Accelerated orientation mapping with template matching.ipynb"\
   "12 MolecularGlassOrientationMapping.ipynb"\
 )
 
