@@ -32,6 +32,7 @@ jobs:
         run: |
           pip install pyxem
           pip install -U nbval pyopencl
+          pip install hyperspy[gui-jupyter]
 
       - name: Display Python, pip and package versions
         run: |
