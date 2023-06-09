@@ -27,4 +27,4 @@ for i in "${!NOTEBOOKS[@]}"; do
 done
 
 # Test with nbval
-pytest -v --nbval "${NOTEBOOKS[@]}" --nbval-lax --current-env
+pytest -v --tb=auto --nbval "${NOTEBOOKS[@]}" --nbval-lax --current-env
