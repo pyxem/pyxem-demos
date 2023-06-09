@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # This script must be run from the pyxem-demos/ top directory:
-#   $ chmod u+x ./doc/tutorials/run_nbval.sh
-#   $ ./doc/tutorials/run_nbval.sh
+#   $ chmod u+x ./run_nbval.sh
+#   $ ./run_nbval.sh
 
 # List notebooks that nbval should run
 declare -a NOTEBOOKS=(\
@@ -20,10 +20,5 @@ declare -a NOTEBOOKS=(\
   "12 MolecularGlassOrientationMapping.ipynb"\
 )
 
-# Append relative path to notebook names
-for i in "${!NOTEBOOKS[@]}"; do
-  NOTEBOOKS[i]="${NOTEBOOKS[i]}"
-done
-
 # Test with nbval
-pytest -v --tb=auto --nbval "${NOTEBOOKS[@]}" --nbval-lax --current-env
+pytest -v --nbval "${NOTEBOOKS[@]}" --nbval-lax --nbval-current-env
