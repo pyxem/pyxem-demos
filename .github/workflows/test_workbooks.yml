@@ -1,1 +1,44 @@
+name: Test documentation notebooks
 
+on:
+  schedule:
+    - cron: '15 6 * * 1'
+  workflow_dispatch:
+    workflow: "*"
+  pull_request:
+    branches:
+      - '*'
+  push:
+    branches:
+      - '*'
+
+env:
+  MPLBACKEND: agg
+
+jobs:
+  test-workbooks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install package and dependencies
+        shell: bash
+        run: |
+          pip install pyxem
+          pip install -U nbval pyopencl
+          pip install hyperspy[gui-jupyter]
+
+      - name: Display Python, pip and package versions
+        run: |
+          python -V
+          pip -V
+          pip list
+
+      - name: Test documentation notebooks
+        run: ./run_nbval.sh
