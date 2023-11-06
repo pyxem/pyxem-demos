@@ -21,5 +21,7 @@ declare -a NOTEBOOKS=(\
   "12 MolecularGlassOrientationMapping.ipynb"\
 )
 
+# clean notebooks to remove outputs
+nb-clean clean "${NOTEBOOKS[@]}"
 # Test with nbval
 pytest -v --nbval "${NOTEBOOKS[@]}" --nbval-lax --nbval-current-env
