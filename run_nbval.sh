@@ -8,6 +8,7 @@
 declare -a NOTEBOOKS=(\
   "00 Importing large mib datasets.ipynb"\
   "01 GaAs Nanowire - Data Inspection - Preprocessing - Unsupervised Machine Learning.ipynb"\
+  "02 GaAs Nanowire - Phase Mapping - Orientation Mapping.ipynb"\
   "03 Reference Standards - Dimension Calibrations - Rotation Calibrations.ipynb"\
   "04 Simulate Data - Phase Mapping - Orientation Mapping.ipynb"\
   "05 Simulate Data - Strain Mapping.ipynb"\
