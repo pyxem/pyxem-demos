@@ -5,12 +5,9 @@ on:
     - cron: '15 6 * * 1'
   workflow_dispatch:
     workflow: "*"
-  pull_request:
-    branches:
-      - '*'
   push:
-    branches:
-      - '*'
+  pull_request:
+    branches: [master]
 
 env:
   MPLBACKEND: agg
