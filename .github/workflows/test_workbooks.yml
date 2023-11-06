@@ -2,7 +2,7 @@ name: Test documentation notebooks
 
 on:
   schedule:
-    - cron: '15 6 * * 1'
+    - cron: '15 6 * * 1' # Run every Monday at 6:15am
   workflow_dispatch:
     workflow: "*"
   push:
