@@ -2,15 +2,12 @@ name: Test documentation notebooks
 
 on:
   schedule:
-    - cron: '15 6 * * 1'
+    - cron: '15 6 * * 1' # Run every Monday at 6:15am
   workflow_dispatch:
     workflow: "*"
-  pull_request:
-    branches:
-      - '*'
   push:
-    branches:
-      - '*'
+  pull_request:
+    branches: [master]
 
 env:
   MPLBACKEND: agg
@@ -32,6 +29,7 @@ jobs:
         run: |
           pip install pyxem
           pip install -U nbval pyopencl
+          pip install nb-clean
           pip install hyperspy[gui-jupyter]
 
       - name: Display Python, pip and package versions
