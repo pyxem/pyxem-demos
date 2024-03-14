@@ -16,6 +16,10 @@ jobs:
   test-workbooks:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        PYXEM_VERSION: ['release', 'development']
     steps:
       - uses: actions/checkout@v3
 
@@ -24,10 +28,21 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install package and dependencies
+      - name: Install pyxem (release)
+        if: contains(matrix.PYXEM_VERSION, 'release')
         shell: bash
         run: |
-          pip install pyxem
+          pip install pyxem      
+
+      - name: Install pyxem (development)
+        if: contains(matrix.PYXEM_VERSION, 'development')
+        shell: bash
+        run: |
+          pip install "pyxem @ git+https://github.com/pyxem/pyxem.git"
+
+      - name: Install other libraries
+        shell: bash
+        run: |
           pip install -U nbval pyopencl
           pip install nb-clean
           pip install hyperspy[gui-jupyter]
